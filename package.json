@@ -12,6 +12,7 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"coffee-script": "^1.12.7",
 		"mocha": "^5.0.2",
 		"moment": "^2.21.0"
 	},
