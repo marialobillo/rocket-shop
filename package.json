@@ -14,7 +14,8 @@
 	"dependencies": {
 		"coffee-script": "^1.12.7",
 		"mocha": "^5.0.2",
-		"moment": "^2.21.0"
+		"moment": "^2.21.0",
+		"underscore": "^1.8.3"
 	},
 	"devDependencies": {
 		"sinon": "^4.4.2"
