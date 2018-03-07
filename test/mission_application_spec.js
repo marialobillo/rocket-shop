@@ -13,24 +13,23 @@ describe("Applying for mission", function(){
 			weight: 120,
 		});
 	});
-	describe("Using valid email, first, last, height, age, weight", function(){
-		it("is valid", function(){
+	describe("Validations successful if...", function(){
+		it("Applicatin is valid if all validators return true", function(){
 			assert(validApp.isValid(), "Not valid");
 		});
-		it("let's them in");
-		it("reports a valid email", function(){
+		it("Email is 4 or more chars and contains an @", function(){
 			assert(validApp.emailIsValid());
 		});
-		it("reports valid height", function(){
+		it("height is between 60 and 75 inches", function(){
 			assert(validApp.heightIsValid());
 		});
-		it("reports valid age", function(){
+		it("age is between 15 and 100", function(){
 			assert(validApp.ageIsValid());
 		});
-		it("reports valid weight", function(){
+		it("weights is between 100 and 300", function(){
 			assert(validApp.weightIsValid());
 		});
-		it("reports valid name", function(){
+		it("first and last name are provided", function(){
 			assert(validApp.nameIsValid());
 		});
 	});
